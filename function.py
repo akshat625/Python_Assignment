@@ -20,14 +20,16 @@ def reverse_string(s):
     return s[::-1]
 print(reverse_string("hello"))
 
+
 print("\n------------------------------------------------------------------------------------------------------------------------\n")
+
 
 def sum_list(l1, l2):
     return sum(l1) + sum(l2)
-l1 = [8, 2, 3, 0, 7]
-l2 = [3, -2, 5, 1]
+list1 = [8, 2, 3, 0, 7]
+list2 = [3, -2, 5, 1]
 
-result = sum_list(l1, l2)
+result = sum_list(list1, list2)
 print(result)
 
 
